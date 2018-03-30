@@ -26,7 +26,10 @@ Use `git config --global -e` to bring up .gitconfig file if you are not sure whe
         oneline = log --pretty=oneline
         br = branch
         la = log --pretty="format:%ad %h (%an): %s" --date=short
-```
+[user]
+        name = Bajal, M
+        email = xxx@xxx.com
+````
 
 #### To Validate YAML Files:
 `ruby -e "require 'yaml';puts YAML.load_file('./$1')"`
